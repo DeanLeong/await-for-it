@@ -26,7 +26,12 @@ function App() {
       <h1>Await For It</h1>
       {reviews.map((review) => (
         /* Review component has a prop called review with a value of review (from map) */
-        <Review review={review} />
+        <Review
+          key={review.id}
+          review={review}
+          fetchReviews={fetchReviews}
+          setFetchReviews={setFetchReviews}
+        />
       ))}
       <CreateReview
         fetchReviews={fetchReviews}

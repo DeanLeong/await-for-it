@@ -44,8 +44,17 @@ form {
   border: 1px solid black;
 }
 
+.update-form {
+  width: 280px;
+  max-width: 280px;
+}
+
 input,
 button {
   font-family: "Noto Sans";
   font-weight: 400;
+}
+
+button {
+  margin: 10px 0;
 }
