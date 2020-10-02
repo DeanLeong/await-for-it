@@ -29,10 +29,6 @@ function UpdateReview(props) {
     );
     // make another GET request?????
     props.setFetchReviews(!props.fetchReviews);
-    // clear out our inputs so we can type something new in
-    setTitle("");
-    setText("");
-    setAuthor("");
   };
 
   return (
